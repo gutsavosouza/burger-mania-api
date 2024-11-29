@@ -10,6 +10,10 @@ namespace burger_mania_api.Data
             
         }
 
-        public DbSet<User> Users {get; set;}
+        public required DbSet<User> Users {get; set;}
+
+        public required DbSet<Product> Products {get; set;}
+
+        public required DbSet<Category> Categories {get; set;}
     }
 }
