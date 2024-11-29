@@ -21,7 +21,6 @@ namespace burger_mania_api.Controllers
         public async Task<ActionResult<List<Category>>> GetAllCategories(int page = 1, int pageSize = 10)
         {
             var categories = await _context.Categories
-                .Include(c => c.Products)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
