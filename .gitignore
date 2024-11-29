@@ -1,0 +1,76 @@
+# Ignore build output folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.vspscc
+*.vssscc
+.vscode/
+.vs/
+
+# Logs
+*.log
+
+# IDE-specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sqlproj
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider files
+*.idea/
+*.sln.iml
+
+# Package directories
+*.nuget/
+packages/
+
+# Debug and release folders
+Debug/
+Release/
+
+# Visual Studio Code settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Resharper files
+_ReSharper*
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+
+# NuGet Packages
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# DotNet specific
+*.runtimeconfig.dev.json
+*.deps.json
+*.db
+
+# Entity Framework migrations
+Migrations/
+
+# ASP.NET
+*.Publish.xml
+publish/
+
+# Azure Web App publish settings
+*.pubxml
+*.pubxml.user
+
+# Global Assembly Info
+AssemblyInfo.cs
