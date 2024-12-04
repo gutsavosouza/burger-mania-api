@@ -7,7 +7,7 @@ namespace burger_mania_api.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
-            
+
         }
 
         public required DbSet<User> Users {get; set;}
@@ -19,5 +19,9 @@ namespace burger_mania_api.Data
         public required DbSet<Status> Statuses {get; set;}
 
         public required DbSet<Order> Orders {get; set;}
+        
+        public required DbSet<OrdersProducts> OrdersProducts {get; set;}
+
+        public required DbSet<UsersOrders> UsersOrders {get; set;}
     }
 }
