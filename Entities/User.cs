@@ -21,5 +21,7 @@ namespace burger_mania_api.Entities
         [Required]
         [StringLength(255)]
         public required string Password {get; set;}
+
+        public List<UsersOrders>? UsersOrders { get; set; }
     }
 }
