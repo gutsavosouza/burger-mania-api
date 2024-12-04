@@ -33,5 +33,7 @@ namespace burger_mania_api.Entities
         [ForeignKey(nameof(CategoryId))]    
         [JsonIgnore]
         public Category? Category { get; set; } 
+
+        public List<OrdersProducts>? OrdersProducts { get; set; }
     }   
 }
